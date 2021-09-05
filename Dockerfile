@@ -6,4 +6,4 @@ RUN apk update && apk add --no-cache imagemagick
 #copy the .bmp image to the docker container host
 COPY picture.bmp /tmp/Pictures/
 
-ENTRYPOINT ["sh"]
+#ENTRYPOINT ["sh"]
